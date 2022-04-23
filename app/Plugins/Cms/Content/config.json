@@ -1,0 +1,11 @@
+{
+    "name": "Cms content module",
+    "image": "images/logo.jpg",
+    "auth": "Naruto",
+    "email": "noithatnhatrang@gmail.com",
+    "link": "https://noithatnhatrang.com.vn",
+    "configGroup": "Plugins",
+    "configCode": "Cms",
+    "configKey": "Content",
+    "version": "1.1"
+}

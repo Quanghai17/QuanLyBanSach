@@ -1,0 +1,11 @@
+{
+    "name": "Shipping standard",
+    "image": "",
+    "auth": "Naruto",
+    "email": "noithatnhatrang@gmail.com",
+    "link": "https://noithatnhatrang.com.vn",
+    "configGroup": "Plugins",
+    "configCode": "Shipping",
+    "configKey": "ShippingStandard",
+    "version": "1.1"
+}

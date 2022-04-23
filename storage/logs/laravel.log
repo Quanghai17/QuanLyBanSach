@@ -1,0 +1,43 @@
+[2020-06-17 11:52:37] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at /home/tvduong/Desktop/s-cart/vendor/laravel/framework/src/Illuminate/Log/LogManager.php:192)
+[stacktrace]
+#0 /home/tvduong/Desktop/s-cart/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(118): Illuminate\\Log\\LogManager->resolve(NULL)
+#1 /home/tvduong/Desktop/s-cart/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(98): Illuminate\\Log\\LogManager->get(NULL)
+#2 /home/tvduong/Desktop/s-cart/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(547): Illuminate\\Log\\LogManager->driver()
+#3 /home/tvduong/Desktop/s-cart/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(122): Illuminate\\Log\\LogManager->error('syntax error, u...', Array)
+#4 /home/tvduong/Desktop/s-cart/app/Exceptions/Handler.php(45): Illuminate\\Foundation\\Exceptions\\Handler->report(Object(ParseError))
+#5 /home/tvduong/Desktop/s-cart/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(403): App\\Exceptions\\Handler->report(Object(ParseError))
+#6 /home/tvduong/Desktop/s-cart/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(111): Illuminate\\Foundation\\Http\\Kernel->reportException(Object(ParseError))
+#7 /home/tvduong/Desktop/s-cart/public/install.php(13): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#8 {main}
+"} 
+[2020-06-17 11:52:37] laravel.ERROR: syntax error, unexpected ')' {"exception":"[object] (ParseError(code: 0): syntax error, unexpected ')' at /home/tvduong/Desktop/s-cart/config/cache.php:103)
+[stacktrace]
+#0 /home/tvduong/Desktop/s-cart/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(39): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFiles(Object(Illuminate\\Foundation\\Application), Object(Illuminate\\Config\\Repository))
+#1 /home/tvduong/Desktop/s-cart/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(230): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->bootstrap(Object(Illuminate\\Foundation\\Application))
+#2 /home/tvduong/Desktop/s-cart/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(151): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#3 /home/tvduong/Desktop/s-cart/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(135): Illuminate\\Foundation\\Http\\Kernel->bootstrap()
+#4 /home/tvduong/Desktop/s-cart/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(109): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#5 /home/tvduong/Desktop/s-cart/public/install.php(13): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#6 {main}
+"} 
+[2020-06-17 11:52:55] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at /home/tvduong/Desktop/s-cart/vendor/laravel/framework/src/Illuminate/Log/LogManager.php:192)
+[stacktrace]
+#0 /home/tvduong/Desktop/s-cart/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(118): Illuminate\\Log\\LogManager->resolve(NULL)
+#1 /home/tvduong/Desktop/s-cart/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(98): Illuminate\\Log\\LogManager->get(NULL)
+#2 /home/tvduong/Desktop/s-cart/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(547): Illuminate\\Log\\LogManager->driver()
+#3 /home/tvduong/Desktop/s-cart/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(122): Illuminate\\Log\\LogManager->error('syntax error, u...', Array)
+#4 /home/tvduong/Desktop/s-cart/app/Exceptions/Handler.php(45): Illuminate\\Foundation\\Exceptions\\Handler->report(Object(ParseError))
+#5 /home/tvduong/Desktop/s-cart/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(366): App\\Exceptions\\Handler->report(Object(ParseError))
+#6 /home/tvduong/Desktop/s-cart/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(131): Illuminate\\Foundation\\Console\\Kernel->reportException(Object(ParseError))
+#7 /home/tvduong/Desktop/s-cart/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#8 {main}
+"} 
+[2020-06-17 11:52:55] laravel.ERROR: syntax error, unexpected ')' {"exception":"[object] (ParseError(code: 0): syntax error, unexpected ')' at /home/tvduong/Desktop/s-cart/config/cache.php:103)
+[stacktrace]
+#0 /home/tvduong/Desktop/s-cart/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(39): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFiles(Object(Illuminate\\Foundation\\Application), Object(Illuminate\\Config\\Repository))
+#1 /home/tvduong/Desktop/s-cart/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(230): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->bootstrap(Object(Illuminate\\Foundation\\Application))
+#2 /home/tvduong/Desktop/s-cart/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#3 /home/tvduong/Desktop/s-cart/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#4 /home/tvduong/Desktop/s-cart/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 {main}
+"} 
